@@ -4,7 +4,6 @@ import "./Service.css";
 function Service() {
   return (
     <div className="service component__space" id="Services">
-
       <div className="heading">
         <h1 className="heading">My Awesome Service</h1>
         <p className="heading p__color">
@@ -36,7 +35,7 @@ function Service() {
                 </svg>
               </div>
               <div className="service__meta">
-                <h1 className="service__text">Business Stratagy</h1>
+                <h1 className="service__text">Wev Designer</h1>
                 <p className="p service__text p__color">
                   I throw myself down among the
                 </p>

@@ -18,21 +18,19 @@ function About() {
             <h1 className="about__heading">About Me</h1>
             <div className="about__meta">
               <p className="about__text p__color">
-                There are many variations of passages of Lorem Ipsum available,
-                but the majority have suffered in some form, by injected humour,
-                or randomised words which dont look even slightly believable. If
-                you are going to use a passage of Lorem Ipsum,
+                Hi! I am Riyad Mia, a web designer/developer focused on crafting
+                great web experiences. Designing and Coding have been my passion
+                since the days I started working with computers but I found
+                myself into web design/development since 2020. I enjoy creating
+                beautifully designed, intuitive and functional websites.
               </p>
               <p className="about__text p__color">
-                There are many variations of passages of Lorem Ipsum available,
-                but the majority have suffered in some form, by injected humour,
-                or randomised words which dont look even slightly believable. If
-                you are going to use a passage of Lorem Ipsum,
+                For over past 8 years, I have worked for some of the best
+                digital agencies and wonderful clients to create some award
+                winning works. And, I can make this happen for your business as
+                well.
               </p>
-              <p className="about__text p__color">
-                There are many variations of passages of Lorem Ipsum available,
-                but the majority have suffered in some form, by injected humour,
-              </p>
+              <p className="about__text p__color"></p>
               <div className="about__button d__flex align__items__center">
                 <a href="https://drive.google.com/file/d/1yQeALQegUGDVnJLDs82FPxyW3PnywAOW/view">
                   <button className="about btn pointer">Download Cv</button>

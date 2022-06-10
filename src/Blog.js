@@ -1,7 +1,7 @@
 import React from "react";
 import "./Blog.css";
-import Blog1 from "../src/img/blog-01.jpg";
-import Blog2 from "../src/img/blog-02.jpg";
+import Blog1 from "../src/img/portfolio-1.jpg";
+import Blog2 from "../src/img/portfolio-4.jpg";
 import Blog3 from "../src/img/blog-03.jpg";
 
 function Blog() {
@@ -19,15 +19,15 @@ function Blog() {
       <div className="container">
         <div className="row">
           <div className="col__3">
-            <div className="project__box pointer relative">
-              <div className="project__box__img pointer relative">
+            <div className="relative project__box pointer">
+              <div className="relative project__box__img pointer">
                 <div className="project__img__box">
                   <img src={Blog1} alt="" className="project__img" />
                 </div>
                 <div className="mask__effect"></div>
               </div>
-              <div className="Blog__meta absolute">
-                <h5 className="project__text">Development</h5>
+              <div className="absolute Blog__meta">
+                <h5 className="project__text">Comming Soon</h5>
                 <h4 className="project__text">
                   Getting tickets to the big show
                 </h4>
@@ -39,15 +39,15 @@ function Blog() {
           </div>
 
           <div className="col__3">
-            <div className="project__box pointer relative">
-              <div className="project__box__img pointer relative">
+            <div className="relative project__box pointer">
+              <div className="relative project__box__img pointer">
                 <div className="project__img__box">
                   <img src={Blog2} alt="" className="project__img" />
                 </div>
                 <div className="mask__effect"></div>
               </div>
-              <div className="Blog__meta absolute">
-                <h5 className="project__text">Development</h5>
+              <div className="absolute Blog__meta">
+                <h5 className="project__text">Comming Soon</h5>
                 <h4 className="project__text">
                   Getting tickets to the big show
                 </h4>
@@ -59,15 +59,15 @@ function Blog() {
           </div>
 
           <div className="col__3">
-            <div className="project__box pointer relative">
-              <div className="project__box__img pointer relative">
+            <div className="relative project__box pointer">
+              <div className="relative project__box__img pointer">
                 <div className="project__img__box">
                   <img src={Blog3} alt="" className="project__img" />
                 </div>
                 <div className="mask__effect"></div>
               </div>
-              <div className="Blog__meta absolute">
-                <h5 className="project__text">Development</h5>
+              <div className="absolute Blog__meta">
+                <h5 className="project__text">Comming Soon</h5>
                 <h4 className="project__text">
                   Getting tickets to the big show
                 </h4>
