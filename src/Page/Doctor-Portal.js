@@ -13,9 +13,6 @@ const Portal = () => {
             Doctors Portal Wearhouse
           </h1>
         </div>
-        <h1 className="mb-6 text-3xl font-bold text-orange-600 ">
-          Wibeside Ditals
-        </h1>
 
         <div className="project component__space" id="Portfolio">
           <div className="heading">

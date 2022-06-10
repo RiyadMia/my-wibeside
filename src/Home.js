@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./Home.css";
 import { Link } from "react-router-dom";
 import logo from ".././src/img/logo.png";
-import Project from "../src/img/riyady.png";
+
 function Home() {
   // fixed Header
   window.addEventListener("scroll", function () {
@@ -12,7 +12,7 @@ function Home() {
   // Toogle Menu
   const [show, setShow] = useState(true);
   return (
-    <div className="home" id="Home">
+    <div className="mt-0 home" id="Home">
       <div className="home__bg">
         <div className="header d__flex align__items__center pxy__30">
           <div className="logo">
@@ -58,7 +58,7 @@ function Home() {
             </svg>
           </div>
           {show ? (
-            <div className="sideNavbar lg:hidden">
+            <div className="mt-0 sideNavbar lg:hidden">
               <ul className="sidebar d__flex">
                 <li className="sideNavbar">
                   <Link to="/">Home</Link>
@@ -81,24 +81,6 @@ function Home() {
               </ul>
             </div>
           ) : null}
-        </div>
-        {/* HOME CONTENT */}
-        <div className="container">
-          <div className="flex flex-col gap-12 lg:flex-row home__content">
-            <div className="home__meta">
-              <h1 className="home__text pz__10">WELCOME TO MY WORLD</h1>
-              <h2 className="home__text pz__10">Hi, I’m Mr Riyad </h2>
-              <h3 className="home__text sweet pz__10">JS Developer &</h3>
-              <h4 className="home__text pz__10"> Web Designer </h4>
-            </div>
-            <div className="">
-              <img
-                style={{ height: "500px", wedth: "300px" }}
-                src={Project}
-                alt=""
-              />
-            </div>
-          </div>
         </div>
       </div>
     </div>

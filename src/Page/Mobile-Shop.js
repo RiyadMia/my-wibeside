@@ -14,9 +14,6 @@ const Mobile = () => {
             Mobile Shop Wearhouse
           </h1>
         </div>
-        <h1 className="mb-6 text-3xl font-bold text-orange-600 ">
-          Wibeside Ditals
-        </h1>
 
         <div className="project component__space" id="Portfolio">
           <div className="heading">
@@ -92,7 +89,7 @@ const Mobile = () => {
                   </div>
                 </div>
               </div>
-              <div className="flex flex-col gap-12  lg:flex-row view__more__btn d__flex align__items__center justify__content__center pxy__30">
+              <div className="flex flex-col gap-12 lg:flex-row view__more__btn d__flex align__items__center justify__content__center pxy__30">
                 <a href="https://acinment-11.web.app/">
                   <button className="mt-5 mb-5 btn btn-secondary ">
                     Live Link

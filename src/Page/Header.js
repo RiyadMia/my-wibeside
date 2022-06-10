@@ -3,11 +3,13 @@ import About from "../About";
 import Blog from "../Blog";
 import Contact from "../Contact";
 import Footer from "../Footer";
+import Headers from "../Headers";
 import Project from "../Project";
 import Service from "../Service";
 const Header = () => {
   return (
     <div>
+      <Headers></Headers>
       <About></About>
       <Service />
       <Project />
