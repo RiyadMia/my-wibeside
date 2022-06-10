@@ -8,7 +8,7 @@ import Project6 from "../../src/sc/EPNG350x450.png";
 const Car = () => {
   return (
     <div>
-      <div className="my-16 text-white mx-28">
+      <div className="my-16 text-white">
         <div className="mt-6 text-center">
           <h1 className="mb-5 text-3xl font-bold text-primary ">Car Service</h1>
         </div>
@@ -92,7 +92,7 @@ const Car = () => {
                     </div>
                   </div>
                 </div>
-                <div className="view__more__btn d__flex align__items__center justify__content__center pxy__30">
+                <div className="flex flex-col gap-12 lg:flex-row view__more__btn d__flex align__items__center justify__content__center pxy__30">
                   <a href=" https://genius-car-servuces.web.app/">
                     <button className="mt-5 mb-5 btn btn-secondary ">
                       Live Link
