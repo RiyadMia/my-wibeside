@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./Home.css";
 import { Link } from "react-router-dom";
 import logo from ".././src/img/logo.png";
-import Project from "../src/img/bg (2).jpg";
+import Project from "../src/img/riyady.png";
 function Home() {
   // fixed Header
   window.addEventListener("scroll", function () {
