@@ -8,7 +8,7 @@ import Project from "../Project";
 import Service from "../Service";
 const Header = () => {
   return (
-    <div>
+    <div className="body">
       <Headers></Headers>
       <About></About>
       <Service />

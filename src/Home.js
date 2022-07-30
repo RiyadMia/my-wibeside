@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./Home.css";
 import { Link } from "react-router-dom";
 import logo from ".././src/img/logo.png";
-
+import Project from "../src/img/riyady.png";
 function Home() {
   // fixed Header
   window.addEventListener("scroll", function () {
@@ -12,7 +12,7 @@ function Home() {
   // Toogle Menu
   const [show, setShow] = useState(true);
   return (
-    <div className="mt-0 home" id="Home">
+    <div className="home" id="Home">
       <div className="home__bg">
         <div className="header d__flex align__items__center pxy__30">
           <div className="logo">
@@ -23,21 +23,22 @@ function Home() {
               <Link to="/">
                 <li className="nav__items mx__15">Home</li>
               </Link>
-              <a href="#About">
+
+              <Link to="/About">
                 <li className="nav__items mx__15">About</li>
-              </a>
-              <a href="#Services">
+              </Link>
+              <Link to="/Service">
                 <li className="nav__items mx__15">Services</li>
-              </a>
-              <a href="#Portfolio">
+              </Link>
+              <Link to="/Portfolio">
                 <li className="nav__items mx__15">Portfolio</li>
-              </a>
-              <a href="#Blog">
+              </Link>
+              <Link to="/blogs">
                 <li className="nav__items mx__15">Blog</li>
-              </a>
-              <a href="#Contact">
+              </Link>
+              <Link to="/Contact">
                 <li className="nav__items mx__15">Contact</li>
-              </a>
+              </Link>
             </ul>
           </div>
           {/* Toogle Menu */}
@@ -58,7 +59,7 @@ function Home() {
             </svg>
           </div>
           {show ? (
-            <div className="mt-0 sideNavbar lg:hidden">
+            <div className="sideNavbar lg:hidden">
               <ul className="sidebar d__flex">
                 <li className="sideNavbar">
                   <Link to="/">Home</Link>
