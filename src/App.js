@@ -18,8 +18,8 @@ import Service from "./Service";
 function App() {
   return (
     <div className="App">
-      <Home></Home>
-      {/* <Navbar></Navbar> */}
+      {/* <Home></Home> */}
+      <Navbar></Navbar>
       <Routes>
         <Route path="/" element={<Header></Header>}></Route>
         <Route path="/mobile" element={<Mobile></Mobile>}></Route>

@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
+import logo from "../././img/logo.png";
 const Navbar = () => {
   // window.addEventListener("scroll", function () {
   // const header = document.querySelector(".header");
@@ -20,7 +21,7 @@ const Navbar = () => {
   );
 
   return (
-    <div className="navbar bg-base-100 header ">
+    <div className="font-bold navbar bg-base-100 header ">
       <div className="navbar-start">
         <div className="dropdown">
           <label tabIndex="0" className="btn btn-ghost lg:hidden">
@@ -47,33 +48,13 @@ const Navbar = () => {
           </ul>
         </div>
         <p className=" ml-9">
-          <Link to="/"> Home </Link>
+          <Link to="/">
+            <img src={logo} alt="" />
+          </Link>
         </p>
       </div>
       <div className="hidden navbar-center lg:flex">
         <ul className="p-0 menu menu-horizontal">{munus}</ul>
-      </div>
-      <div className="navbar-end">
-        <label
-          htmlFor="dashbord-sidebar"
-          tabIndex="0"
-          className="btn btn-ghost lg:hidden"
-        >
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            className="w-5 h-5"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke="currentColor"
-          >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth="2"
-              d="M4 6h16M4 12h8m-8 6h16"
-            />
-          </svg>
-        </label>
       </div>
     </div>
   );
