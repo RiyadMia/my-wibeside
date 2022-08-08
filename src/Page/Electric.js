@@ -110,9 +110,9 @@ const Electric = () => {
           </div>
         </div>
 
-        <ul className="mt-5 ">
+        <ul className="p-10 mt-5 ">
           <li>
-            ● Electric-parts. is a MERN application where user can order any
+            ● Electric-parts. is a mane application where user can order any
             kind of tools and pay with credit card
           </li>
           <li>

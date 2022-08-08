@@ -110,7 +110,7 @@ const Car = () => {
             </div>
           </div>
 
-          <li>
+          <li className="p-10 ">
             <ol>
               ● Car Service is a React application where user can choose their
               service.

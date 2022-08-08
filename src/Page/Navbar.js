@@ -3,10 +3,6 @@ import { Link } from "react-router-dom";
 import "./Navbar.css";
 import logo from "../././img/logo.png";
 const Navbar = () => {
-  // window.addEventListener("scroll", function () {
-  // const header = document.querySelector(".header");
-  // header.classList.toggle("active", window.scrollY > 0);
-  // });
   const munus = (
     <>
       <li>

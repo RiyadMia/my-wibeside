@@ -7,7 +7,7 @@ function Footer() {
       <div>
         <h1 className="text-4xl "> Mr. Riyad</h1>
         <p>
-          JS Developer & Web Designer
+          JS Developer & Web Designer.
           <br />
           <br />
           Copyright © 2022 - All right reserve

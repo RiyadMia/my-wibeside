@@ -112,9 +112,9 @@ Doctors-portal-server"
           </div>
         </div>
 
-        <ul className="mt-5 ">
+        <ul className="p-10 mt-5 ">
           <li>
-            ● Doctors Portal is a MERN application where user can order any kind
+            ● Doctors Portal is a mane application where user can order any kind
             of tools and pay with credit card
           </li>
           <li>

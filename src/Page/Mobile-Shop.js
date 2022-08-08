@@ -110,9 +110,9 @@ const Mobile = () => {
           </div>
         </div>
 
-        <ul className="mt-5 ">
+        <ul className="p-10 mt-5">
           <li>
-            ● It’s a MERN application where user can login With social and
+            ● It’s a mane application where user can login With social and
             email.
           </li>
           <li>● User can delete ,update ,deliver of this mobile</li>

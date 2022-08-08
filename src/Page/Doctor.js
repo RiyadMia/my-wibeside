@@ -104,15 +104,15 @@ const Doctor = () => {
             </div>
           </div>
 
-          <li>
+          <li className="p-10">
             <ol>
-              ● Doctors portal is a React application where user can choose
+              ● Doctors service is a React application where user can choose
               their service.
             </ol>
-            <ol>● User can login with both social and email</ol>
+            <ol>● User can login with both social and email.</ol>
             <ol>● User can reset their password if they forget it.</ol>
             <h1 className="text-xl font-bold ">Technology Used :</h1>
-            <ol>● React Js ,Firebase, Bootstrap CSS</ol>
+            <ol>● React Js ,Firebase, Bootstrap CSS.</ol>
           </li>
         </ul>
       </div>

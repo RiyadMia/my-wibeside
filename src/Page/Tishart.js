@@ -105,7 +105,7 @@ const Tishart = () => {
             </div>
           </div>
 
-          <li>
+          <li className="p-10">
             <ol>
               ● Tishart Shopping is a React application where user can choose
               their service.
